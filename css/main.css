@@ -8,3 +8,37 @@ body{
     font-size:15px;
     font-family: 'Montserrat', sans-serif;
 }
+.main-header{
+    display: flex;
+}
+
+ .nav-bar{
+    height: 600px;
+    width: calc(300px - 200px);
+    background-color: aqua;
+    display: flex;
+}
+
+.container{
+    height: 600px;
+    width:100%;
+
+}
+
+/*Barra Superiore*/
+
+.top-header{
+    height:100px;
+    width:100%;
+    background-color: royalblue;
+}
+
+/*Libreria*/
+
+.libreria{
+    height:500px;
+    width:100%;
+    background-color: yellow;
+}
+/*footer*/
+
