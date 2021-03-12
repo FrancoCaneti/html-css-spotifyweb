@@ -13,14 +13,14 @@ body{
 }
 
  .nav-bar{
-    height: 600px;
-    width: calc(300px - 200px);
+    height: 650px;
+    width: 100px;
     background-color: aqua;
     display: flex;
 }
 
 .container{
-    height: 600px;
+    height: 650px;
     width:100%;
 
 }
@@ -28,7 +28,7 @@ body{
 /*Barra Superiore*/
 
 .top-header{
-    height:100px;
+    height:10%;
     width:100%;
     background-color: royalblue;
 }
@@ -36,9 +36,14 @@ body{
 /*Libreria*/
 
 .libreria{
-    height:500px;
+    height:90%;
     width:100%;
     background-color: yellow;
 }
 /*footer*/
 
+footer{
+    height:100px;
+    width:100%;
+    background-color: black;
+}
