@@ -11,13 +11,27 @@ body{
 .main-header{
     display: flex;
 }
-
+ /*Menù Laterale*/
  .nav-bar{
     height: 650px;
     width: 100px;
     background-color: aqua;
-    display: flex;
+   
+ }
+.menu-lat{
+    height:90%;
+    width: 100%;
+    
+    
 }
+
+.account{
+    height:10%;
+    width:100%;
+    background-color: cornflowerblue;
+}
+
+/***************************************************************************/
 
 .container{
     height: 650px;
@@ -25,10 +39,15 @@ body{
 
 }
 
-/*Barra Superiore*/
-
-.top-header{
+/*Barra Superiore Upgrade*/
+.upgrade{
     height:10%;
+    width:100%;
+    background-color: rgb(15, 29, 56);
+}
+/*Barra Menù*/
+.top-menu{
+    height:15%;
     width:100%;
     background-color: royalblue;
 }
@@ -36,7 +55,7 @@ body{
 /*Libreria*/
 
 .libreria{
-    height:90%;
+    height:75%;
     width:100%;
     background-color: yellow;
 }
@@ -45,5 +64,5 @@ body{
 footer{
     height:100px;
     width:100%;
-    background-color: black;
+    background-color: rgb(77, 75, 72);
 }
