@@ -56,10 +56,31 @@
 .icon-add{
     color:#fafafacb
  }
-
-
+/*menù laterale account*/
+.icon-account{
+    list-style: none;
+    height: 20px;
+    width: 11%;
+    margin: 20px 0px 20px 8px;
+    color:#fafafab7
 }
 
+.account-bot {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 8px 5px;
+    padding: 5px 15px;
+    list-style: none;
+    background-color: grey;
+    background-image: url(../img/profile.svg);
+    background-size: 100%;
+ }
+
+ .h6-nav{
+    display: inline-block;
+ }
+
+}
 @media screen and (min-width:768px){
     
 }
