@@ -3,22 +3,43 @@
 .nav-bar{
     width:250px;
 }
+/*menù laterale superiore*/
 .icon-bar{
     list-style: none;
     height: 20px;
-    width: 20%;
-    margin: 5px 10px 20px 15px;
+    width: 15%;
+    margin: 9px 0px 22px 5px;
     
 }
 .logo-small{
     display: none;
 }
 .logo-big{
-    height:10px;
-    width:10px
+    display: inline-block;
+    list-style: none;
+    height: 35px;
+    width: 375%;
+    margin: -4px -6px 0px 0px;
 
 }
 
+.h5-nav{
+    margin: 10px 0px 0px 0px;
+    color: white;
+    display: inline;
+    position: absolute;
+     
+}
+/*menù laterale centrale*/
+
+.li-center{
+    list-style: none;
+    height: 20px;
+    width: 50%;
+    margin: 5px 10px 20px 15px;
+    color: white;
+    display: inline-block;
+}
 
 @media screen and (min-width:768px){
     

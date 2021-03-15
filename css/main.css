@@ -24,6 +24,7 @@ body{
     
     
 }
+/*parte superiore*/
 .icon-bar{
     list-style: none;
     height: 20px;
@@ -33,6 +34,21 @@ body{
 .logo-big{
     display: none;
 }
+
+.h5-nav{
+    display:none
+}
+/*parte centrale*/
+.li-center{
+    list-style: none;
+    height: 20px;
+    width: 50%;
+    margin: 5px 10px 20px 15px;
+    color: white;
+    display: none;
+}
+
+/*************************************/
 /*account*/
 .account{
     height:14%;
