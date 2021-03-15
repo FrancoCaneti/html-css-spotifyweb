@@ -13,22 +13,55 @@ body{
 }
  /*Menù Laterale*/
  .nav-bar{
-    height: 650px;
-    width: 70px;
-    background-color: aqua;
+    height: 650px ;
+    width: 60px;
+    background-color: rgb(0, 0, 0);
    
  }
 .menu-lat{
-    height:90%;
+    height:85%;
     width: 100%;
     
     
 }
-
+.icon-bar{
+    list-style: none;
+    height: 20px;
+    width: 50%;
+    margin: 5px 10px 20px 15px;
+}
+.logo-big{
+    display: none;
+}
+/*account*/
 .account{
-    height:10%;
+    height:14%;
     width:100%;
-    background-color: cornflowerblue;
+    padding-top: 25px;
+    background-color: rgb(0, 0, 0);
+}
+
+.icon-account{
+    list-style: none;
+    height: 20px;
+    width: 40%;
+    margin: 0px 0px 0px 15px;
+}
+
+.account-bot{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 7px 10px;
+    padding: 15px 15px;
+    list-style: none;
+    background-color: grey;
+    background-image: url(../img/profile.svg);
+    background-size: 100%;
+}
+.profile-account{
+    height:10px;
+    width:10px
+
 }
 
 /***************************************************************************/
@@ -53,7 +86,7 @@ body{
  .upgrade .bot-upgrade{
     border: 2px solid white;
     border-radius: 20px;
-    padding: 7px 30px;
+    padding: 7px 10px;
     margin: 5px 10px;
 }
 
