@@ -25,20 +25,39 @@
 
 .h5-nav{
     margin: 10px 0px 0px 0px;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     display: inline;
     position: absolute;
      
 }
+.h5-nav-s{
+    margin: 6px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline;
+    position: absolute;
+    left: 50px;
+}
+.icon-add{
+    color:#fafafacb
+}
+
+
 /*menù laterale centrale*/
 
 .li-center{
     list-style: none;
     height: 20px;
-    width: 50%;
-    margin: 5px 10px 20px 15px;
+    width: 45%;
+    margin: 5px 10px 5px 15px;
     color: white;
     display: inline-block;
+} 
+
+.icon-add{
+    color:#fafafacb
+ }
+
+
 }
 
 @media screen and (min-width:768px){

@@ -13,7 +13,7 @@ body{
 }
  /*Menù Laterale*/
  .nav-bar{
-    height: 650px ;
+    height: 850px ;
     width: 60px;
     background-color: rgb(0, 0, 0);
    
@@ -44,9 +44,12 @@ body{
     height: 20px;
     width: 50%;
     margin: 5px 10px 20px 15px;
-    color: white;
+    color: #fafafaab;
     display: none;
 }
+
+ 
+
 
 /*************************************/
 /*account*/
@@ -80,17 +83,18 @@ body{
 
 }
 
+
 /***************************************************************************/
 
 .container{
-    height: 650px;
+    height: 850px;
     width:100%;
 
 }
 
 /*Barra Superiore Upgrade*/
 .upgrade{
-    height: 13%;
+    height: 10%;
     width:100%;
     background-color: rgb(15, 29, 56);
     color:white;
@@ -103,7 +107,7 @@ body{
     border: 2px solid white;
     border-radius: 20px;
     padding: 7px 10px;
-    margin: 5px 10px;
+    margin: 5px 1px;
 }
 
 
@@ -111,7 +115,7 @@ body{
 
 /*Barra Menù*/
 .top-menu{
-    height:12%;
+    height:15%;
     width:100%;
     background-color: royalblue;
 }
