@@ -116,13 +116,19 @@
 }
 
 
-
-.hr-f{
-    border: 3px solid #fafafaab;
-    background-color: #fafafaab;
-    margin: 0px 10px;
-    border-radius: 10px;
+.brano{
+    width:15%
 }
+
+ .play{
+    width:35%;
+ }
+
+
+ .audio {
+     width: 35%;
+ }
+
 
 }
 
@@ -163,13 +169,20 @@
     }
 
 
-
-    .hr-f{
-        border: 3px solid #fafafaab;
-        background-color: #fafafaab;
-        margin: 0px -40px;
-        border-radius: 10px;
+   
+    .brano{
+        width:15%
     }
+ 
+     .play{
+        width:45%;
+     }
+ 
+ 
+     .audio {
+         width: 30%;
+     }
+ 
 }
 
 /*********/
@@ -199,12 +212,18 @@
     margin-bottom: 30px;
     height: 200px;
     }
+    
+   .brano{
+       width:15%
+   }
 
-
-    .hr-f{
-        border: 3px solid #fafafaab;
-        background-color: #fafafaab;
-        margin: 0px -75px;
-        border-radius: 10px;
+    .play{
+       width:50%;
     }
-}
+
+
+    .audio {
+        width: 20%;
+    }
+
+} 

@@ -290,8 +290,8 @@ footer{
 
 }
 .brano{
-    height:100%;
-    width:20%;
+    height:100px;
+    width:30%;
     display: flex;
     align-items: center;
     flex-wrap: wrap-reverse;
@@ -317,8 +317,8 @@ footer{
 
 /*Play*/
 .play{
-    height: 100%;
-    width:50%;
+    height: 100px;
+    width:35%;
     display: flex;
     justify-content: center;
 }
@@ -333,14 +333,23 @@ footer{
     margin:0px 10px
 }
 
-
-.hr-f{
-    border: 3px solid #fafafaab;
-    background-color: #fafafaab;
-    margin: 0px 10px;
-    border-radius: 10px;
-
+.play-bar{
+    height:4px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
+.play-min{
+    height:4px;
+    width:50px;
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+.play-min:hover{
+    background-color:springgreen
+}
+
+
+
 .b-p:hover{
     transform: scale(1.2);
 }
@@ -353,7 +362,7 @@ footer{
 
 .audio{
     height: 100px;
-    width:15%;
+    width:35%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -361,25 +370,26 @@ footer{
 
 }
 
-
 .li-audio{
     list-style: none;
     display: inline-block;
     margin-right:10px
 }
 
-.hr-audio{
-    padding: 0 43px;
-    border: 1px solid #fafafaab;
-    margin: 0 0px;
-    color: #fafafaab;
-    border-radius: 10px;
-}
 
-.hr-audio:hover{
-    color:green
+.audio-bar{
+    width:100px;
+    height:4px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
-
+.audio-min{
+    width:30px ;
+    height:4px;
+    background-color: #fafafaab;
+}
+.audio-min:hover{
+    background-color: springgreen
+}
 
 /*scrollbar*/
 
