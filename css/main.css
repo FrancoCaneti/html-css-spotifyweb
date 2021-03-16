@@ -201,7 +201,7 @@ color:#fafafaab;
 footer{
     height:100px;
     width:100%;
-    background-color: rgb(77, 75, 72);
+    background-color:rgba(0 0 0 / 84%);
     display: flex;
     justify-content: space-between;
 
@@ -209,17 +209,21 @@ footer{
 .brano{
     height:100%;
     width:20%;
-    background-color: slategray;
     display: flex;
-    padding:10px
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding:10px;
+    color:#fafafaab
 
 }
 .f-album{
     width:40px;
 }
 
-.list-r{
+.li-brano{
+    list-style: none;
     display: inline-block;
+    margin:3px
 }
 /**********/
 
@@ -227,7 +231,6 @@ footer{
 .play{
     height: 100%;
     width:50%;
-    background-color: slategray;
     display: flex;
     justify-content: center;
 }
@@ -242,21 +245,18 @@ footer{
     margin:0px 10px
 }
 
+
 .hr-f{
     border: 3px solid #fafafaab;
     background-color: #fafafaab;
     margin: 0px 10px;
     border-radius: 10px;
-    display: flex;
-    flex-grow: 4;
-    
+
 }
 
 
-.number{
-    display: flex;
- flex-grow: 5;
-}
+
+
 /**********/
 
 /*Audio*/
@@ -264,10 +264,10 @@ footer{
 .audio{
     height: 100%;
     width:15%;
-    background-color: slategray;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color:white
 
 }
 
@@ -282,5 +282,6 @@ footer{
     padding: 0 43px;
     border: 1px solid #fafafaab;
     margin: 0 0px;
-    color: #fafafaab;;
+    color: #fafafaab;
+    border-radius: 10px;
 }
