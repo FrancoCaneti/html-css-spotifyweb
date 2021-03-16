@@ -344,6 +344,20 @@ footer{
     background-color: rgba(255, 255, 255, 0.562);
 }
 
+.play-dot{
+    height: 4px;
+    width: 4px;
+    margin: 0px 0px 0px 45px;
+    border-radius: 50%;
+}
+
+.play-dot:hover{
+    background-color: white;
+    transform: scale(3);
+
+
+}
+
 .play-min:hover{
     background-color:springgreen
 }
@@ -383,12 +397,26 @@ footer{
     background-color: rgba(255, 255, 255, 0.3);
 }
 .audio-min{
-    width:30px ;
+    width:70px ;
     height:4px;
     background-color: #fafafaab;
 }
+
+.audio-dot{
+    width: 4px;
+    height: 4px;
+    margin: 0px 65px;
+    border-radius: 50%;   
+    }
+
+
 .audio-min:hover{
     background-color: springgreen
+}
+
+.audio-dot:hover{
+    background-color: white;
+    transform: scale(3);
 }
 
 /*scrollbar*/
