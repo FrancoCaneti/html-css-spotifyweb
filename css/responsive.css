@@ -40,6 +40,12 @@
 .icon-add{
     color:#fafafacb
 }
+.hr-a {
+    margin: 6px 10px;
+    display: inline-block;
+    padding: 0px 70px;
+}
+
 
 
 /*menù laterale centrale*/
@@ -61,7 +67,7 @@
     list-style: none;
     height: 20px;
     width: 11%;
-    margin: 20px 0px 20px 8px;
+    margin: 0px 0px 20px 8px;
     color:#fafafab7
 }
 
@@ -112,10 +118,10 @@
 
 
 .hr-f{
-    border: 2px solid #fafafaab;
+    border: 3px solid #fafafaab;
     background-color: #fafafaab;
     margin: 0px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 }
@@ -125,6 +131,15 @@
 
 @media screen and (min-width:768px){
    
+
+    .hr-a {
+    margin: 6px 10px;
+    display: inline-block;
+    padding: 0px 85px;
+    }
+    
+    
+
     .top-menu{
         display: flex; 
         justify-content: center;
@@ -150,15 +165,22 @@
 
 
     .hr-f{
-        border: 2px solid #fafafaab;
+        border: 3px solid #fafafaab;
         background-color: #fafafaab;
         margin: 0px -40px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 }
 
 /*********/
 @media screen and (min-width:1200px){
+
+    .hr-a {
+     margin: 6px 10px;
+    display: inline-block;
+    padding: 0px 85px;
+    }
+    
 
     .top-menu{
         display: flex; 
@@ -180,9 +202,9 @@
 
 
     .hr-f{
-        border: 2px solid #fafafaab;
+        border: 3px solid #fafafaab;
         background-color: #fafafaab;
         margin: 0px -75px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 }
