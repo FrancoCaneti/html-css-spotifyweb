@@ -125,6 +125,10 @@ body{
     margin: 5px 1px;
 }
 
+.bot-upgrade:hover{
+    transform: scale(1.1);
+}
+
 /*****************************/
 
 
@@ -253,7 +257,9 @@ footer{
     border-radius: 10px;
 
 }
-
+.b-p:hover{
+    transform: scale(1.2);
+}
 
 
 
